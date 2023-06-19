@@ -17,6 +17,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import { EmojiFoodBeverageOutlined } from '@mui/icons-material';
+import LogoutIcon from '@mui/icons-material/Logout';
 import { Autocomplete, TextField } from '@mui/material';
 import { useContext, useEffect, useRef, useState } from 'react';
 import { StoreContext } from '../../context/ContextProvider';
@@ -70,7 +71,6 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   padding: theme.spacing(0, 1),
-  // necessary for content to be below app bar
   ...theme.mixins.toolbar,
   justifyContent: 'flex-end',
 }));
@@ -90,8 +90,6 @@ export const AppLayout = () => {
   const handleDrawerClose = () => {
     setOpen(false);
   };
-
-  // const [recetaBuscada,setRecetaBuscada] = useState('');
 
   const topBar = useRef();
 
@@ -190,13 +188,16 @@ export const AppLayout = () => {
         </DrawerHeader>
         <Divider />
         <List>
-          {['Recetas Guardadas', 'Recetas Culinarias'].map((text, index) => (
+          {['Recetas Guardadas', 'Recetas Culinarias', 'salir'].map((text, index) => (
             <ListItem key={text} disablePadding>
               <Link to={`${text==="Recetas Guardadas" ?
-              "recetas-guardadas" : "recetas-menu"}`}>
+              "recetas-guardadas" : text==="Recetas Culinarias" ?
+              "recetas-menu" : "/auth/login"}`} className='w-[100%]'>
                 <ListItemButton>
                   <ListItemIcon>
-                    {index % 2 === 0 ? <InboxIcon /> : <EmojiFoodBeverageOutlined/>}
+                    {text === "Recetas Guardadas" ? <InboxIcon/> :
+                    text === "Recetas Culinarias" ? <EmojiFoodBeverageOutlined/> :
+                    <LogoutIcon/>}
                   </ListItemIcon>
                   <ListItemText primary={text} />
                 </ListItemButton>
