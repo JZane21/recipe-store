@@ -41,5 +41,5 @@ Si se siguió el procedimiento correctamente, se debió abrir el pograma correct
 
 ## Links:
 
-* drive: https://drive.google.com/drive/folders/1r3ZhbmrrCn4htOMt0akJVRcYlhH87lWY
+* drive: https://drive.google.com/drive/folders/1r3ZhbmrrCn4htOMt0akJVRcYlhH87lWY?usp=sharing
 * repositorio: https://github.com/JZane21/segundo-parcial-certi-react
