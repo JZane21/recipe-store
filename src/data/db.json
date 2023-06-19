@@ -1,0 +1,79 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": "email@gmail.com",
+      "email": "email@gmail.com",
+      "name": "Paul Landaeta",
+      "password": "123"
+    },
+    {
+      "id": "jsce2021@gmail.com",
+      "email": "jsce2021@gmail.com",
+      "name": "Jose Carrasco",
+      "password": "321"
+    }
+  ],
+  "recetas": [
+    {
+      "id":1,
+      "nombre":"bife chorizo",
+      "cantidadIngredientes":7,
+      "tecnicaReceta":"freir",
+      "tiempoPreparacion":90,
+      "rating":12,
+      "rated":false,
+      "saved":false,
+      "img":"https://images.pexels.com/photos/14118155/pexels-photo-14118155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id":2,
+      "nombre":"verduras al vapor",
+      "cantidadIngredientes":5,
+      "tecnicaReceta":"cocinar al vapor",
+      "tiempoPreparacion":30,
+      "rating":24,
+      "rated":false,
+      "saved":false,
+      "img":"https://t1.uc.ltmcdn.com/es/posts/2/2/3/como_cocinar_verduras_al_vapor_26322_orig.jpg"
+    },
+    {
+      "id":3,
+      "nombre":"pollo al spiedo",
+      "cantidadIngredientes":10,
+      "tecnicaReceta":"al horno",
+      "tiempoPreparacion":120,
+      "rating":42,
+      "rated":false,
+      "saved":false,
+      "img":"https://saboresbolivianos.com/wp-content/uploads/pollo-spiedo.jpg"
+    },
+    {
+      "id":4,
+      "nombre":"sajta",
+      "cantidadIngredientes":10,
+      "tecnicaReceta":"hervir",
+      "tiempoPreparacion":45,
+      "rating":31,
+      "rated":false,
+      "saved":false,
+      "img":"https://upload.wikimedia.org/wikipedia/commons/9/9d/Sajta_de_pollo_Pace%C3%B1o.jpg"
+    }
+  ]
+}
