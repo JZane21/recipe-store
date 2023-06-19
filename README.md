@@ -38,3 +38,8 @@ Para instalar este programa, se debe seguir los siguientes pasos:
 * ejecutar el comando npm run backend (en caso de que el backend no funcione correctamente, se debe cambiar la extension del archivo **.env.sample** por **.env**).
 
 Si se siguió el procedimiento correctamente, se debió abrir el pograma correctamente, al cual puede acceder a través de la URL, la cual es proporcionada a través de la terminal.
+
+## Links:
+
+* drive: https://drive.google.com/drive/folders/1r3ZhbmrrCn4htOMt0akJVRcYlhH87lWY
+* repositorio: https://github.com/JZane21/segundo-parcial-certi-react
