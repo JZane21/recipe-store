@@ -20,14 +20,8 @@
     {
       "id": "email@gmail.com",
       "email": "email@gmail.com",
-      "name": "Paul Landaeta",
+      "name": "Usuario Uno",
       "password": "123"
-    },
-    {
-      "id": "jsce2021@gmail.com",
-      "email": "jsce2021@gmail.com",
-      "name": "Jose Carrasco",
-      "password": "321"
     }
   ],
   "recetas": [
