@@ -1,12 +1,8 @@
-# segundo-parcial-certi-react
-
-## Proposito
-
-El objetivo del siguiente proyecto, consta en demostrar los conocimientos adquiridos en la certificación de react, tanto en el uso del estado, como de hooks como lo son useMemo, memo, useEffect, entre otros.
+# Recipe Store
 
 ## App de recetas Culinarias
 
-La siguiente aplicación, tiene como proposito el lograr ofrecer a los usuarios que se encuentren registrados, la posibilidad de buscar, raitera, y guardar recetas por medio de este sitio web. De esta forma, se fomentará el uso de aplicaciones web, las cuales incentiven a los usuarios a usar más la red en el área de la cocina.
+La siguiente aplicación, tiene como proposito el lograr ofrecer a los usuarios que se encuentren registrados, la posibilidad de buscar, calificar, y guardar recetas por medio de este sitio web. De esta forma, se fomentará el uso de aplicaciones web, las cuales incentiven a los usuarios a usar más la red en el área de la cocina.
 
 ## Instalación
 
