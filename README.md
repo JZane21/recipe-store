@@ -35,6 +35,10 @@ Para instalar este programa, se debe seguir los siguientes pasos:
 
 Si se siguió el procedimiento correctamente, se debió abrir el pograma correctamente, al cual puede acceder a través de la URL, la cual es proporcionada a través de la terminal.
 
+* Para usar la app, debe usar la siguiente información para ingresar:
+  * email: email@gmail.com
+  * password: 123
+
 ## Links:
 
 * drive: https://drive.google.com/drive/folders/1r3ZhbmrrCn4htOMt0akJVRcYlhH87lWY?usp=sharing
